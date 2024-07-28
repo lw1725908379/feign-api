@@ -15,4 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 public interface IUserClient {
     @PostMapping("/user/check_login")
     ResponseDTO<UserDTO> checkLogin(@RequestBody UserDTO userDTO);
+
+
 }
